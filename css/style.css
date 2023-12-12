@@ -2,3 +2,31 @@ body{
     background-color: aliceblue;
 }
 
+#header-body{
+    background-color: bisque;
+    height: 100px;
+}
+
+main{
+    background-color: blueviolet;
+    height: calc(100vh - 100px);
+    display: flex;
+
+
+}
+
+#sidebar-main{
+    background-color: green;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+#content-main{
+    background-color: red;
+    overflow: auto;
+    
+}
+
+#header-content{
+    background-color: #1B72E8 ;
+}
