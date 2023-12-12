@@ -1,20 +1,27 @@
+
+/*GENERICS*/
 body{
     background-color: aliceblue;
 }
 
+
+/*UTLITIES*/
+.color-gold{
+    color: #FF8F00;
+}
+.h-50px{
+    height: 50px;
+}
+.bg-white{
+    background-color: white;
+}
+
+
+/*HEADER BODY*/
 #header-body{
     background-color: #F8F9FA;
     padding: 21px 0;
 }
-.color-gold{
-    color: #FF8F00;
-}
-
-
-.h-50px{
-    height: 50px;
-}
-
 .logo-img{
     flex-basis: 15%;
 }
@@ -26,19 +33,11 @@ body{
     background-color: white;
 }
 
-.bg-white{
-    background-color: white;
-}
-
-
-
-
+/*MAIN*/
 main{
     background-color: blueviolet;
-    height: calc(100vh - 88px);
+    height: calc(100vh - 92px);
     display: flex;
-
-
 }
 
 #sidebar-main{
@@ -48,6 +47,8 @@ main{
     flex-shrink: 0;
 }
 
+
+/*CONTENT*/
 #content-main{
     background-color: red;
     overflow: auto;
