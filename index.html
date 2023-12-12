@@ -16,7 +16,23 @@
 </head>
 <body>
     <header id="header-body">
-
+        <nav class="header-body-nav d-flex justify-content-around align-items-center bg-white px-3 py-1">
+            <div class="logo-img">
+              <a class="navbar-brand " href="#">
+                <img class="h-50px d-lg-none" src="img/mobile-logo.png" alt="boolean logo mobile">
+                <img class="d-none d-lg-block" src="img/logo.svg" alt="boolean logo desktop">
+              </a>              
+            </div>
+            <form class="flex-grow-1 bg-white" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="nav-icons">
+                <i class="fa-solid fa-list d-none d-lg-block"></i>
+                <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
+                <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
+                <i class="fa-solid fa-bell color-gold"></i>
+            </div>
+          </nav>
     </header>
     <main>
         <nav id="sidebar-main">
