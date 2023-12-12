@@ -73,11 +73,15 @@ main{
 }
 
 #header-content .badge{    
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     font-weight: 200;
-    padding: 7px 10px;
+    padding: 7px 8px;
 }
 
+.divisore::after{
+    font: var(--fa-font-solid);
+    content: '\f101';
+}
 
 
 
@@ -87,3 +91,4 @@ main{
         width: 150px;
     }
 }
+
