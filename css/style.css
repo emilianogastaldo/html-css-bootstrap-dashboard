@@ -4,7 +4,10 @@ body{
     background-color: aliceblue;
 }
 
-
+a{
+    color: black;
+    text-decoration: none;
+}
 /*UTLITIES*/
 .color-gold{
     color: #FF8F00;
@@ -20,7 +23,7 @@ body{
 /*HEADER BODY*/
 #header-body{
     background-color: #F8F9FA;
-    padding: 21px 0;
+    padding: 20px 0;
 }
 .logo-img{
     flex-basis: 15%;
@@ -36,17 +39,24 @@ body{
 /*MAIN*/
 main{
     background-color: blueviolet;
-    height: calc(100vh - 92px);
+    height: calc(100vh - 90px);
     display: flex;
 }
 
+/*LAVORO SULLA SIDEBAR*/
 #sidebar-main{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
-    width: 100px;
+    width: 90px;
     flex-shrink: 0;
 }
 
+#sidebar-main a{
+    color: white;
+}
+#sidebar-main i{
+    margin-right: 10px;
+}
 
 /*CONTENT*/
 #content-main{
@@ -57,4 +67,15 @@ main{
 
 #header-content{
     background-color: #1B72E8 ;
+}
+
+
+
+
+
+/*MEDIA QUERY*/
+@media screen and (min-width: 992px){
+    #sidebar-main{
+        width: 150px;
+    }
 }

@@ -27,22 +27,34 @@
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             </form>
             <div class="nav-icons">
-                <i class="fa-solid fa-list d-none d-lg-block"></i>
-                <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
-                <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
-                <i class="fa-solid fa-bell color-gold"></i>
+                <a href="#"><i class="fa-solid fa-list d-none d-lg-block"></i></a>
+                <a href="#"><i class="fa-solid fa-circle-question d-none d-lg-block"></i></a>
+                <a href="#"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i></a>
+                <a href="#"><i class="fa-solid fa-bell d-block color-gold"></i></a>
             </div>
           </nav>
     </header>
     <main>
-        <nav id="sidebar-main" class="text-white d-flex flex-column justify-content-between">
-            <div class="sidebar-top">
-                <i class="fa-solid fa-house"></i>
-                <i class="fa-solid fa-chart-simple"></i>
-                <i class="fa-solid fa-signal"></i>
+        <nav id="sidebar-main" class="d-flex flex-column justify-content-between align-items-center py-4">
+            <div class="sidebar-top d-flex flex-column gap-3 align-items-center">
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="d-none d-lg-inline">Home</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span class="d-none d-lg-inline">Stats</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-signal"></i>
+                    <span class="d-none d-lg-inline">Signals</span>
+                </a>
             </div>
             <div class="sidebar-bottom">
-                <i class="fa-solid fa-gear"></i>
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="d-none d-lg-inline">Admin</span>
+                </a>
             </div>
         </nav>
         
