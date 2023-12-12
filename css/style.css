@@ -51,7 +51,7 @@ main{
 #sidebar-main{
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
-    width: 90px;
+    width: 80px;
     flex-shrink: 0;
 }
 
