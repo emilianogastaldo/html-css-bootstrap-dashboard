@@ -124,3 +124,8 @@ main {
 .bc-white {
     background-color: white;
 }
+
+tr th:not(:first-child),
+tr td:not(:first-child) {
+    text-align: center;
+}
