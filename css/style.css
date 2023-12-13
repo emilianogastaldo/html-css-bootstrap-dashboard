@@ -84,11 +84,10 @@ main {
 
 #sidebar-main a {
     color: white;
+    padding: 10px;
 }
 
-#sidebar-main i {
-    margin-right: 10px;
-}
+
 
 /*DIVIDO IL MAIN IN DUE: CONTENT-MAIN E HEADER-CONTENT*/
 #content-main {
