@@ -102,13 +102,14 @@ main {
 #header-content .badge {
     background-color: rgba(0, 0, 0, 0.3);
     font-weight: 200;
-    padding: 7px 8px;
+    padding: 7px 5px;
 }
 
-.divisore::after {
+/* .divisore::after {
     font: var(--fa-font-solid);
     content: '\f101';
-}
+    font-size: 14px;
+} */
 
 
 tr th:not(:first-child),

@@ -116,43 +116,50 @@
                                                 placeholder="Inserisci il nome" aria-label="default input example">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="firstname" class="form-label">Nome</label>
-                                            <input class="form-control" type="text" id="firstname"
-                                                placeholder="Inserisci il nome" aria-label="default input example">
+                                            <label for="surname" class="form-label">Cognome</label>
+                                            <input class="form-control" type="text" id="surname"
+                                                placeholder="Inserisci il cognome" aria-label="default input example">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="firstname" class="form-label">Nome</label>
-                                            <input class="form-control" type="text" id="firstname"
-                                                placeholder="Inserisci il nome" aria-label="default input example">
+                                            <label for="email" class="form-label">Email</label>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" id="email" class="form-control" placeholder="email"
+                                                    aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="firstname" class="form-label">Nome</label>
-                                            <input class="form-control" type="text" id="firstname"
-                                                placeholder="Inserisci il nome" aria-label="default input example">
+                                            <label for="pw" class="form-label">Password</label>
+                                            <input class="form-control" type="password" id="pw"
+                                                placeholder="Inserisci la password" aria-label="default input example">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="firstname" class="form-label">Nome</label>
-                                            <input class="form-control" type="text" id="firstname"
-                                                placeholder="Inserisci il nome" aria-label="default input example">
+                                            <label for="email-add" class="form-label">Indirizzo Email</label>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" id="email-add" class="form-control"
+                                                    placeholder="Indirizzo email" aria-label="Username"
+                                                    aria-describedby="basic-addon1">
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="firstname" class="form-label">Nome</label>
-                                            <input class="form-control" type="text" id="firstname"
-                                                placeholder="Inserisci il nome" aria-label="default input example">
+                                            <label for="pw2" class="form-label">Password</label>
+                                            <input class="form-control" type="password" id="pw2"
+                                                placeholder="Inserisci la password" aria-label="default input example">
                                         </div>
                                         <div class="col-md-12">
-                                            <label for="firstname" class="form-label">Nome</label>
-                                            <input class="form-control" type="text" id="firstname"
-                                                placeholder="Inserisci il nome" aria-label="default input example">
+                                            <label for="address" class="form-label">Indirizzo</label>
+                                            <input class="form-control" type="text" id="address"
+                                                placeholder="Inserisci l'indirizzo" aria-label="default input example">
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="firstname" class="form-label">Nome</label>
-                                            <input class="form-control" type="text" id="firstname"
-                                                placeholder="Inserisci il nome" aria-label="default input example">
+                                            <label for="city" class="form-label">Città</label>
+                                            <input class="form-control" type="text" id="city"
+                                                placeholder="Inserisci la città" aria-label="default input example">
                                         </div>
                                         <div class="col-4">
-                                            <label for="firstname" class="form-label">Stato</label>
-                                            <select class="form-select" aria-label="Default select example">
+                                            <label for="state" class="form-label">Stato</label>
+                                            <select class="form-select" id="state" aria-label="Default select example">
                                                 <option selected>Scegli...</option>
                                                 <option value="1">Stato One</option>
                                                 <option value="2">Stato Two</option>
@@ -160,9 +167,9 @@
                                             </select>
                                         </div>
                                         <div class="col-2">
-                                            <label for="firstname" class="form-label">Nome</label>
-                                            <input class="form-control" type="text" id="firstname"
-                                                placeholder="Inserisci il nome" aria-label="default input example">
+                                            <label for="cap" class="form-label">CAP</label>
+                                            <input class="form-control" type="text" id="cap"
+                                                placeholder="Inserisci il CAP" aria-label="default input example">
                                         </div>
                                         <div class="col-md-12">
                                             <label for="formFile" class="form-label">Default file input example</label>
@@ -173,8 +180,8 @@
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                         </div>
-                                        <button type="submit" class="btn btn-primary col-auto">Submit</button>
-                                        <button type="submit" class="btn btn-primary col-auto">Submit</button>
+                                        <button type="submit" class="btn btn-primary col-auto">Salva</button>
+                                        <button type="submit" class="btn btn-warning col-auto">Svuota</button>
 
                                     </form>
                                 </div>
@@ -190,6 +197,9 @@
                                 <ul class="d-flex list-unstyled gap-1">
                                     <li class="divisore">
                                         <a href="#"><span class="badge rounded-pill">3 app</span></a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angles-right"></i>
                                     </li>
                                     <li>
                                         <a href="#"><span class="badge rounded-pill d-lg-none"><i
