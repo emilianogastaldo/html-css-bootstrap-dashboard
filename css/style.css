@@ -8,7 +8,6 @@ a {
     text-decoration: none;
 }
 
-
 /*UTLITIES*/
 .color-gold {
     color: #FF8F00;
@@ -65,8 +64,6 @@ header .form-control {
     padding: 8px;
 }
 
-
-
 /*MAIN*/
 main {
     height: calc(100vh - 90px);
@@ -86,8 +83,6 @@ main {
     display: block;
     padding: 10px;
 }
-
-
 
 /*DIVIDO IL MAIN IN DUE: CONTENT-MAIN E HEADER-CONTENT*/
 #content-main {
@@ -111,12 +106,10 @@ main {
     font-size: 14px;
 } */
 
-
 tr th:not(:first-child),
 tr td:not(:first-child) {
     text-align: center;
 }
-
 
 /* creo l'offcanvas */
 #header-content .offcanvas {
@@ -136,8 +129,6 @@ form button {
 #sidebar-main a:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
-
-
 
 /*MEDIA QUERY*/
 @media screen and (min-width: 992px) {
