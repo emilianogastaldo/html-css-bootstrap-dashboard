@@ -1,46 +1,67 @@
-
 /*GENERICS*/
-body{
+body {
     background-color: aliceblue;
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
 
 
 /*UTLITIES*/
-.color-gold{
+.color-gold {
     color: #FF8F00;
 }
-.h-50px{
+
+.h-50px {
     height: 50px;
 }
-.bg-white{
+
+.bg-white {
     background-color: white;
 }
-.blue-link{
+
+.blue-link {
     text-decoration: underline;
     color: blue;
 }
 
+/* utilities per i status badge  */
+.text-bg-done {
+    background-color: #198754;
+    font-weight: 400;
+}
+
+.text-bg-process {
+    background-color: #FFC107;
+    font-weight: 400;
+}
+
+.text-bg-failed {
+    background-color: #DC3545;
+    font-weight: 400;
+}
+
 /*HEADER BODY*/
-#header-body{
+#header-body {
     background-color: #F8F9FA;
     padding: 20px 0;
 }
-.logo-img{
+
+.logo-img {
     flex-basis: 15%;
 }
-.nav-icons{
+
+.nav-icons {
     flex-basis: 10%;
     display: flex;
     justify-content: flex-end;
     gap: 15px;
 }
+
 header .input-group-text,
-header .form-control{
+header .form-control {
     border: 0;
     background-color: #E5E5E5;
     padding: 8px;
@@ -48,43 +69,44 @@ header .form-control{
 
 
 /*MAIN*/
-main{
+main {
     height: calc(100vh - 90px);
     display: flex;
 }
 
 /*LAVORO SULLA SIDEBAR*/
-#sidebar-main{
+#sidebar-main {
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
     width: 80px;
     flex-shrink: 0;
 }
 
-#sidebar-main a{
+#sidebar-main a {
     color: white;
 }
-#sidebar-main i{
+
+#sidebar-main i {
     margin-right: 10px;
 }
 
 /*DIVIDO IL MAIN IN DUE: CONTENT-MAIN E HEADER-CONTENT*/
-#content-main{
+#content-main {
     flex-grow: 1;
-    overflow: auto;    
+    overflow: auto;
 }
 
-#header-content{
-    background-color: #1B72E8 ;
+#header-content {
+    background-color: #1B72E8;
 }
 
-#header-content .badge{    
+#header-content .badge {
     background-color: rgba(0, 0, 0, 0.3);
     font-weight: 200;
     padding: 7px 8px;
 }
 
-.divisore::after{
+.divisore::after {
     font: var(--fa-font-solid);
     content: '\f101';
 }
@@ -93,12 +115,12 @@ main{
 
 
 /*MEDIA QUERY*/
-@media screen and (min-width: 992px){
-    #sidebar-main{
+@media screen and (min-width: 992px) {
+    #sidebar-main {
         width: 150px;
     }
 }
 
-.bc-white{
+.bc-white {
     background-color: white;
 }
