@@ -84,6 +84,7 @@ main {
 
 #sidebar-main a {
     color: white;
+    display: block;
     padding: 10px;
 }
 
@@ -116,13 +117,20 @@ tr td:not(:first-child) {
     text-align: center;
 }
 
+
+
+
+/* INTERACTIONS */
+
+#sidebar-main a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
 /*MEDIA QUERY*/
 @media screen and (min-width: 992px) {
     #sidebar-main {
         width: 150px;
     }
-}
-
-.bc-white {
-    background-color: white;
 }
