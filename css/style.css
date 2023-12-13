@@ -66,6 +66,7 @@ header .form-control {
 }
 
 
+
 /*MAIN*/
 main {
     height: calc(100vh - 90px);
@@ -116,7 +117,18 @@ tr td:not(:first-child) {
 }
 
 
+/* creo l'offcanvas */
+#header-content .offcanvas {
+    width: 100%;
+}
 
+form .form-check {
+    padding-left: calc(var(--bs-gutter-x) * 2);
+}
+
+form button {
+    margin-left: calc(var(--bs-gutter-x) * .5);
+}
 
 /* INTERACTIONS */
 
@@ -131,4 +143,9 @@ tr td:not(:first-child) {
     #sidebar-main {
         width: 150px;
     }
+
+    #header-content .offcanvas {
+        width: 50%;
+    }
+
 }
