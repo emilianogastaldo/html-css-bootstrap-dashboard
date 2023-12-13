@@ -112,7 +112,10 @@ main {
 }
 
 
-
+tr th:not(:first-child),
+tr td:not(:first-child) {
+    text-align: center;
+}
 
 /*MEDIA QUERY*/
 @media screen and (min-width: 992px) {
@@ -123,9 +126,4 @@ main {
 
 .bc-white {
     background-color: white;
-}
-
-tr th:not(:first-child),
-tr td:not(:first-child) {
-    text-align: center;
 }
