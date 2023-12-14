@@ -105,6 +105,9 @@ main {
     content: '\f101';
     font-size: 14px;
 } */
+thead th:not(:first-child) {
+    width: 110px;
+}
 
 tr th:not(:first-child),
 tr td:not(:first-child) {
